@@ -1,7 +1,7 @@
 .catalog:
-  name: ecomobi-cpo-api
-  version: 1.0
-  description: ecomobi cpo api
+  name: "ecomobi-cpo-api"
+  version: "1.0"
+  description: "ecomobi cpo api"
   questions: 
     - variable: "PUBLIC_PORT"
       label: "Public port"
