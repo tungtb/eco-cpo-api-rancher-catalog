@@ -1,4 +1,4 @@
-cpo-api:
+api:
     image: tungtb/strapi
     ports:
         - ${PUBLIC_PORT}:1337
