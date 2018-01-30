@@ -7,6 +7,6 @@
       label: "Public port"
       description: "Public port"
       type: "int"
+      default: 1337
       required: true
-      default: 133
 cpo-api:

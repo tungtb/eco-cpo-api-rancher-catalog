@@ -1,7 +1,7 @@
 cpo-api:
     image: tungtb/strapi
     ports:
-        - ${public_port}:1337
+        - ${PUBLIC_PORT}:1337
     restart: always
     labels:
       io.rancher.container.pull_image: always
