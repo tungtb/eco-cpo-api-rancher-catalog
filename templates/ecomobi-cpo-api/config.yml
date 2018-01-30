@@ -1,4 +1,4 @@
-name: EcoCpoApi# Name of the Catalog Entry
+name: "EcoCpoApi"# Name of the Catalog Entry
 description: |
   # Description of the Catalog Entry
 version: # Version of the Catalog to be used

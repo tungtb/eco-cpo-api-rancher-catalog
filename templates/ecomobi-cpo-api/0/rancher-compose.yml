@@ -8,4 +8,5 @@
       description: "Public port"
       type: "int"
       required: true
-      default: 1337
+      default: 133
+cpo-api:
