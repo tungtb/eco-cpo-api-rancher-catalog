@@ -5,3 +5,9 @@
   uuid: # Unique identifier to be used for upgrades. Please see note.
   minimum_rancher_version: # The minimum version of Rancher that supports the template
   questions: #Used to request user input for configuration options
+    - variable: "PUBLIC_PORT"
+      label: "Public port"
+      description: "Public port"
+      type: "int"
+      required: true
+      default: 1337
