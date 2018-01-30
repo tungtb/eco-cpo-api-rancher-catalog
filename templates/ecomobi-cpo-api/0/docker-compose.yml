@@ -1,0 +1,5 @@
+cpo-api:
+    image: tungtb/strapi
+    ports:
+        - ${public_port}:1337
+    restart: always
