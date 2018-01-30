@@ -1,10 +1,8 @@
 .catalog:
-  name: ecomobi-cpo-api# Name of the versioned template of the Catalog Entry
-  version: 1.0# Version of the versioned template of the Catalog Entry
-  description: ecomobi cpo api# Description of the versioned template of the Catalog Entry
-  uuid: # Unique identifier to be used for upgrades. Please see note.
-  minimum_rancher_version: # The minimum version of Rancher that supports the template
-  questions: #Used to request user input for configuration options
+  name: ecomobi-cpo-api
+  version: 1.0
+  description: ecomobi cpo api
+  questions: 
     - variable: "PUBLIC_PORT"
       label: "Public port"
       description: "Public port"
