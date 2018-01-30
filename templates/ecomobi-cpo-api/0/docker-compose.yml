@@ -3,3 +3,5 @@ cpo-api:
     ports:
         - ${public_port}:1337
     restart: always
+    labels:
+      io.rancher.container.pull_image: always
